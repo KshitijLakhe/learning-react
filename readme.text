@@ -1,5 +1,3 @@
 notes: https://github.com/CODENAME-DEVENDRA/React-session
 
-cli command
-To see live changes
-node --watch fileName 
+cli command--> To see live changes--> node --watch fileName 
