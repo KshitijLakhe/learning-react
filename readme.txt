@@ -1,4 +1,4 @@
-notes: git
+notes: https://github.com/CODENAME-DEVENDRA/React-session
 
 cli command--> To see live changes--> node --watch fileName 
 
