@@ -6,7 +6,11 @@ import * as Jsx from "./Phase-01 Foundations/03.Fundamental Module/01.jsx-and-el
 import * as Props from "./Phase-01 Foundations/03.Fundamental Module/03.props"
 import * as Events from "./Phase-01 Foundations/03.Fundamental Module/04.events"
 import * as States from "./Phase-01 Foundations/03.Fundamental Module/05.state"
-import * as Hooks from "./hooks/01.useState"
+import * as StateHooks from "./hooks/01.useState"
+import * as Conditional from "./Phase-01 Foundations/03.Fundamental Module/06.conditional-rendering"
+import * as List from "./Phase-01 Foundations/03.Fundamental Module/07.rendering-lists.jsx"
+import * as Effects from "./Phase-01 Foundations/04.Intermediate Module/01.user-effect"
+import * as UseEffectHooks  from "./hooks/02.useEffect"
 
 
 
@@ -33,12 +37,20 @@ const App = () => {
 
       {/* <States.StateBasics/> */}
 
-      {/* <Hooks.StateString /> */}
-      {/* <Hooks.StateNumber /> */}
-      {/* <Hooks.StateBoolean /> */}
-      {/* <Hooks.StateArray/> */}
-      <Hooks.StateObject/>
+      {/* <StateHooks.StateString /> */}
+      {/* <StateHooks.StateNumber /> */}
+      {/* <StateHooks.StateBoolean /> */}
+      {/* <StateHooks.StateArray/> */}
+      {/* <StateHooks.StateObject/> */}
 
+      {/* <Conditional.Ternary/>
+      <Conditional.LogicalAnd/> */}
+      {/* <Conditional.EarlyReturn/> */}
+      {/* <Conditional.MultipleConditions/> */}
+      
+      {/* <List.Keys/> */}
+      {/* <Effects.UseEffect/> */}
+      <UseEffectHooks.DataFetch/>
     </>
   )
 }
